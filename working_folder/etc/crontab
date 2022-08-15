@@ -1,0 +1,2 @@
+*/1 * * * * root cd /working_folder && python3 collect_weather.py && python3 load_csv.py > /proc/1/fd/1 2>/proc/1/fd/2
+* * * * * root env > /tmp/env.output
